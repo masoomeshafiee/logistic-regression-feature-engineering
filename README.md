@@ -42,8 +42,9 @@ logistic-regression-feature-engineering/
 
 │── notebooks/
 │    ├── project_part_A.ipynb   # Hepatitis dataset
-
+│
 │    ├── project_part_B.ipynb   # Mushroom dataset
+
 │── src/                        # (optional) refactored scripts if you want
 
 │── requirements.txt
