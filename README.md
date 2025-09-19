@@ -78,6 +78,42 @@ Run the cells in:
 
 **project_part_B.ipynb** → Mushroom dataset
 
+How to run:
+
+- In each code, there is a section called "Data Loading". In the first cell of this section, you can determine the path of the dataset. 
+
+- By simply setting the file path to the CSV file on your drive, you can run the whole code and no further changes are required. 
+
+- Also, if a local environment is used to run the code, the second cell of the "Data Loading" section which is commented out by default, 
+can be set to point to the CSV file on the local hard drive, and the whole code will run with no further changes. It is important to remember if a local environment is used, the Google Drive mount should be commented out.
+
+
+- Beware that since the RFE is computationally heavy, it may take a while for our code to run on notebook . 
+
+##### Code structure:
+
+Each section has a title in the code. But the overall structure for both files is as below:
+1. Loading the required libraries and defining necessary functions:
+In this section, you can find all the developed functions that we used in our code, namely:
+- Logistic Regression class
+- Train-test-split function
+- K-fold-cross-validation function
+- RFE function
+
+2. Data Loading:
+This section is responsible for loading the dataset into a pandas dataset
+
+3. Data visualization:
+This section is responsible for familiarizing and visualizing the data at hand.
+
+4. Model development:
+This section is responsible for model development and testing different features. Each section for a different set of features is marked from 1 to the number of categories of features that we engineered. 
+To evaluate each section, we ran k-fold-cross-validation, and RFE to determine feature importance, and printed the result of training the model on our test dataset.
+Lastly, the best features were selected in selected_features and we did the above procedure for this final set of features, which is indicated by "Accuracy on test dataset".
+
+5. Testing different learning rates:
+This section is responsible for evaluating the effect of different learning rates and epsilons on training the model and finally plotting the result.
+
 
 #### Future Work
 
