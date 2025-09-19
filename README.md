@@ -35,13 +35,19 @@ Logistic regression, despite being simple, is interpretable and well-suited for 
 
 ## Repository Structure
 logistic-regression-feature-engineering/
+
 │── README.md
+
 │── report.pdf
+
 │── notebooks/
 │    ├── project_part_A.ipynb   # Hepatitis dataset
+
 │    ├── project_part_B.ipynb   # Mushroom dataset
 │── src/                        # (optional) refactored scripts if you want
+
 │── requirements.txt
+
 │── .gitignore
 
 
@@ -68,6 +74,7 @@ jupyter notebook notebooks/
 Run the cells in:
 
 **project_part_A.ipynb** → Hepatitis dataset
+
 **project_part_B.ipynb** → Mushroom dataset
 
 
