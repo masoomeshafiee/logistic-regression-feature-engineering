@@ -74,9 +74,9 @@ jupyter notebook notebooks/
 ```
 Run the cells in:
 
-**project_part_A.ipynb** → Hepatitis dataset
+**hepatitis_logistic_regression.ipynb** → Hepatitis dataset
 
-**project_part_B.ipynb** → Mushroom dataset
+**mushroom_logistic_regression.ipynb** → Mushroom dataset
 
 How to run:
 
