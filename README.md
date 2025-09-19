@@ -34,13 +34,15 @@ Logistic regression, despite being simple, is interpretable and well-suited for 
 ---
 
 ## Repository Structure
-├── notebooks/
-│ ├── project_part_A.ipynb # Hepatitis dataset analysis
-│ ├── project_part_B.ipynb # Mushroom dataset analysis
-├── report.pdf # Full project report
-├── requirements.txt # Python dependencies
-├── .gitignore # Ignore unnecessary files
-└── README.md
+logistic-regression-feature-engineering/
+│── README.md
+│── report.pdf
+│── notebooks/
+│    ├── project_part_A.ipynb   # Hepatitis dataset
+│    ├── project_part_B.ipynb   # Mushroom dataset
+│── src/                        # (optional) refactored scripts if you want
+│── requirements.txt
+│── .gitignore
 
 
 ---
